@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>StudgetBuddy - Student Budget Tracker</title>
+    <title>MoneyMitra - Budget Tracker</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -11,12 +11,13 @@
     <header>
         <div class="container">
             <nav>
-                <div class="logo">Studget<span>Buddy</span></div>
+                <div class="logo">MoneyMitra</div>
                 <ul class="nav-links">
                     <li><a href="#features">Features</a></li>
                     <li><a href="#how-it-works">How It Works</a></li>
                     <li><a href="#testimonials">Testimonials</a></li>
-                    <li><a href="#" class="btn">Sign Up</a></li>
+                    <li><a href="#" class="btn signUp">Sign Up</a></li>
+                    <li><a href="#" onclick="logout(); return false;">Logout</a></li>
                 </ul>
             </nav>
         </div>
@@ -26,8 +27,8 @@
     <section class="hero">
         <div class="container">
             <h1>Take Control of Your Finances!</h1>
-            <p>StudgetBuddy helps students easily manage their monthly expenses, track spending habits, and achieve financial goals while in school.</p>
-            <a href="#" class="btn btn-secondary">Start Tracking Now</a>
+            <p>MoneyMitra helps students easily manage their monthly expenses, track spending habits, and achieve financial goals while in school.</p>
+            <a href="#" class="btn btn-secondary startTrack">Start Tracking Now</a>
         </div>
     </section>
 
@@ -115,30 +116,30 @@
     <section id="testimonials" class="testimonials">
         <div class="container">
             <div class="section-title">
-                <h2>What Students Say</h2>
-                <p>Join thousands of students already managing their finances better.</p>
+                <h2>What People Say</h2>
+                <p>Join thousands of people are already managing their finances better.</p>
             </div>
             <div class="testimonials-container">
                 <div class="testimonial">
                     <div class="testimonial-text">
-                        "Since using StudgetBuddy, I've saved enough for a spring break trip I never thought I could afford. It's so easy to use and really helped me understand where my money was going!"
+                        "Since using MoneyMitra, I've saved enough for a spring break trip I never thought I could afford. It's so easy to use and really helped me understand where my money was going!"
                     </div>
-                    <div class="testimonial-author">Alex Chen</div>
-                    <div class="testimonial-college">University of Washington</div>
+                    <div class="testimonial-author">Rahul Sharma</div>
+                    <div class="testimonial-college">IIT KGP</div>
                 </div>
                 <div class="testimonial">
                     <div class="testimonial-text">
                         "As a freshman living on my own for the first time, this app has been a lifesaver. I no longer run out of money before the end of the month!"
                     </div>
-                    <div class="testimonial-author">Taylor Johnson</div>
-                    <div class="testimonial-college">Michigan State University</div>
+                    <div class="testimonial-author">Priya Mehta</div>
+                    <div class="testimonial-college">HIT</div>
                 </div>
                 <div class="testimonial">
                     <div class="testimonial-text">
-                        "The visual reports help me see exactly where I'm overspending. I've cut my coffee shop spending in half since I started using StudgetBuddy!"
+                        "The visual reports help me see exactly where I'm overspending. I've cut my coffee shop spending in half since I started using MoneyMitra!"
                     </div>
-                    <div class="testimonial-author">Jamie Rodriguez</div>
-                    <div class="testimonial-college">UCLA</div>
+                    <div class="testimonial-author">Rohan</div>
+                    <div class="testimonial-college">Kalyani</div>
                 </div>
             </div>
         </div>
@@ -147,7 +148,7 @@
     <!-- CTA Section -->
     <section class="cta-section">
         <div class="container">
-            <h2>Ready to Take Control of Your Student Budget?</h2>
+            <h2>Ready to Take Control of Your Budget?</h2>
             <p>Join thousands of students who are saving more and stressing less about money.</p>
             <a href="#" class="btn">Get Started for Free</a>
         </div>
@@ -158,8 +159,8 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-column">
-                    <h3>StudgetBuddy</h3>
-                    <p>The smart way for students to manage finances and achieve their financial goals.</p>
+                    <h3>MoneyMitra</h3>
+                    <p>The smart way for people to manage finances and achieve their financial goals.</p>
                 </div>
                 <div class="footer-column">
                     <h3>Quick Links</h3>
@@ -203,9 +204,11 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2025 StudgetBuddy. All rights reserved.</p>
+                <p>&copy; 2025 MoneyMitra. All rights reserved.</p>
             </div>
         </div>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="login.js"></script>
 </body>
 </html>
